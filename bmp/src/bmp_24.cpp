@@ -1,4 +1,4 @@
-#include "../include/bmp_v1.h"
+#include "../include/bmp_24.h"
 
 BMP_24::BMP_24(const std::string& inputPath_arg, const std::string& outputPath_arg)
 : inputPath{inputPath_arg},

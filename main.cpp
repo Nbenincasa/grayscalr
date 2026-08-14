@@ -1,4 +1,4 @@
-#include "bmp/include/bmp_v1.h"
+#include "bmp/include/bmp_24.h"
 
 int main(int argc, char* argv[])
 {
