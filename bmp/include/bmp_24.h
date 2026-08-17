@@ -8,7 +8,7 @@ class BMP_24
 {
 private:
 
-    BMPHeader_24  header;
+    BMPHeader  header;
     const std::string inputPath;
     const std::string outputPath;
     

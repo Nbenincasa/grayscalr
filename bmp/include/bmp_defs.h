@@ -2,7 +2,7 @@
 #include <byteswap.h>
 
 #pragma pack(push, 1)
-struct BMPHeader_24
+struct BMPHeader
 {
     // File header (14 bytes)
     uint16_t header_field;
@@ -11,7 +11,7 @@ struct BMPHeader_24
     uint16_t reserved_1;
     uint32_t image_data_offset;
 
-    // DIB Heeader (40 bytes)
+    // DIB Header (40 bytes)
     uint32_t size;
     int32_t  width;
     int32_t  height;

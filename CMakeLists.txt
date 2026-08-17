@@ -12,7 +12,7 @@ set(PROJECT_SOURCES
 
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
 
-target_link_libraries(${PROJECT_NAME} PUBLIC bmp_24_lib)
+target_link_libraries(${PROJECT_NAME} PUBLIC bmp_lib)
 
 if(MSVC)
     target_compile_options(${PROJECT_NAME} PRIVATE /W4 /WX) # Strict warnings for Windows
